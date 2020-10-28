@@ -1,0 +1,81 @@
+object Vendas: TVendas
+  Align = Client
+  Size.Width = 1097.000000000000000000
+  Size.Height = 609.000000000000000000
+  Size.PlatformDefault = False
+  object tbVendas: TTabControl
+    Align = Client
+    Size.Width = 1097.000000000000000000
+    Size.Height = 609.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'tabcontrolstyle'
+    TabIndex = 0
+    TabOrder = 0
+    TabPosition = PlatformDefault
+    Sizes = (
+      1097s
+      585s
+      1097s
+      585s)
+    object tiCadastrar: TTabItem
+      CustomIcon = <
+        item
+        end>
+      TextSettings.Font.Family = 'Arial'
+      StyledSettings = [FontColor]
+      IsSelected = True
+      Size.Width = 73.000000000000000000
+      Size.Height = 24.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Cadastrar'
+      object rctBackCadastrar: TRectangle
+        Align = Client
+        Fill.Color = claDarkgray
+        Size.Width = 1097.000000000000000000
+        Size.Height = 585.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object vsbCadastrar: TVertScrollBox
+        Align = Client
+        Size.Width = 1097.000000000000000000
+        Size.Height = 585.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        ShowSizeGrip = True
+        Viewport.Width = 1097.000000000000000000
+        Viewport.Height = 585.000000000000000000
+        object Label1: TLabel
+          Position.X = 352.000000000000000000
+          Position.Y = 488.000000000000000000
+          Text = 'Label1'
+          TabOrder = 0
+        end
+      end
+    end
+    object tiVisaoGeral: TTabItem
+      CustomIcon = <
+        item
+        end>
+      TextSettings.Font.Family = 'Arial'
+      StyledSettings = [Size, Style, FontColor]
+      IsSelected = False
+      Size.Width = 80.000000000000000000
+      Size.Height = 24.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'VisaoGeral'
+      object rctBackVisaoGeral: TRectangle
+        Align = Client
+        Fill.Color = claDarkgray
+        Size.Width = 1097.000000000000000000
+        Size.Height = 585.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+    end
+  end
+end

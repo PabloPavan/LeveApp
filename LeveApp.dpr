@@ -5,7 +5,8 @@
 uses
   System.StartUpCopy,
   FMX.Forms,
-  mainU in 'mainU.pas' {Main};
+  mainU in 'mainU.pas' {Main},
+  VendasU in 'source\VendasU.pas' {Vendas: TFrame};
 
 {$R *.res}
 

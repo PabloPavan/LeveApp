@@ -1,0 +1,42 @@
+inherited Main_Surface: TMain_Surface
+  ClientHeight = 1920
+  ClientWidth = 1080
+  DesignerMasterStyle = 0
+  inherited lytBackGround: TLayout
+    Size.Width = 1080.000000000000000000
+    Size.Height = 1920.000000000000000000
+    inherited lytMenuEsquerdo: TLayout
+      Size.Height = 1920.000000000000000000
+      inherited recMenuEsquerdo: TRectangle
+        Size.Height = 1871.000000000000000000
+        inherited rctVenda: TRectangle
+          inherited lblVenda: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+        inherited rctPagar: TRectangle
+          inherited lblPagar: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+        inherited rctCadastrar: TRectangle
+          inherited lblCadastrar: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+      end
+    end
+    inherited lytContent: TLayout
+      Anchors = [akLeft, akTop, akRight, akBottom]
+      Size.Width = 1015.000000000000000000
+      Size.Height = 1920.000000000000000000
+    end
+    inherited lytDireito: TLayout
+      Position.X = 514.000000000000000000
+      Size.Height = 1920.000000000000000000
+      inherited rctBackgroundDireto: TRectangle
+        Size.Height = 1920.000000000000000000
+      end
+    end
+  end
+end

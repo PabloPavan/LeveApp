@@ -1,0 +1,28 @@
+inherited Main_Windows: TMain_Windows
+  DesignerMasterStyle = 0
+  inherited lytBackGround: TLayout
+    inherited lytMenuEsquerdo: TLayout
+      inherited recMenuEsquerdo: TRectangle
+        inherited rctVenda: TRectangle
+          inherited lblVenda: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+        inherited rctPagar: TRectangle
+          inherited lblPagar: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+        inherited rctCadastrar: TRectangle
+          inherited lblCadastrar: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+      end
+    end
+    inherited lytContent: TLayout
+      Anchors = [akLeft, akTop, akRight, akBottom]
+      Size.Width = 1325.000000000000000000
+    end
+  end
+end
